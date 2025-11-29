@@ -66,5 +66,5 @@ El diagrama actualizado está ubicado en: docs/uml/diagrama_clases.png
 
 ## 📎 Enlace a GitHub
 
-➡ https://github.com/TU_USUARIO/ProyectoAudiovisual
+[➡ https://github.com/TU_USUARIO/ProyectoAudiovisual](https://github.com/eduardotapiaabad5-pixel/ProyectoAudiovisual.git)
 
