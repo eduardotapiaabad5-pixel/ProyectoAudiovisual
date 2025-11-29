@@ -1,0 +1,24 @@
+
+@startuml
+package model {
+  class Contenido
+  class Pelicula
+  class Serie
+  class Documental
+}
+package repository {
+  interface ContentRepository
+  class FileContentRepository
+}
+package service { class ContentService }
+package controller { class ContentController }
+package view { class ConsoleView }
+Contenido <|-- Pelicula
+Contenido <|-- Serie
+Contenido <|-- Documental
+ContentRepository <|.. FileContentRepository
+FileContentRepository --> Contenido
+ContentService --> ContentRepository
+ContentController --> ContentService
+ConsoleView --> ContentController
+@enduml

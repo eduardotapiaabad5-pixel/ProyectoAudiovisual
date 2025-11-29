@@ -1,0 +1,7 @@
+
+Informe breve de cambios implementados (Etapas 1-5):
+- Etapa 1: FileContentRepository implementa lectura/escritura de CSV con CSVHelper.
+- Etapa 2: Código refactorizado: clases pequeñas, nombres claros, separación de responsabilidades.
+- Etapa 3: SOLID: ContentRepository interface (DIP), clases separadas (SRP), switch minimal.
+- Etapa 4: MVC: view.ConsoleView (interacción con usuario), controller.ContentController, service.ContentService, repository.
+- Etapa 5: Pruebas unitarias con JUnit 5 (controller y repository tested).
